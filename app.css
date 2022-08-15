@@ -25,5 +25,26 @@ h1 {
     display: block;
 }
 #container span {
+    @media (max-width: 640px) {
+    h1 {
+    margin-left: 15%;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(102, 92, 129);
+    background-color: rgb(160 26 26);
+    padding: 10px;
+}
+#container div {
+        display: inline-block;
+        text-align: center;
+        border: 2px solid;
+        border-color: orange;
+        padding: 2px;
+        margin: 5px;
+        box-sizing: border-box;
+        background-color: rgb(102, 92, 129);
+    }
+}
 
 }
